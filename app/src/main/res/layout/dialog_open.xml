@@ -48,10 +48,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@drawable/open_right"
+            android:paddingEnd="1dp"
             android:paddingRight="1dp"
             android:src="@drawable/arrow_down"
-            android:tint="?attr/colorAccent"
-            android:paddingEnd="1dp" />
+            android:tint="?attr/colorAccent" />
 
     </LinearLayout>
 
@@ -72,8 +72,8 @@
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:contentDescription="@string/mOpen_share"
         android:minWidth="0dp"
         android:minHeight="0dp"
-        android:contentDescription="@string/mOpen_share"
         android:src="@drawable/share" />
 </LinearLayout>
